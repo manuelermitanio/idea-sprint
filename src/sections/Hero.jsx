@@ -9,14 +9,23 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-[var(--color-tech)] mb-6">
           Build, launch, and iterate faster with the power of design and code.
         </p>
-        <div className="flex justify-center gap-4">
-          <button className="bg-[var(--color-tech)] text-white px-6 py-2 rounded hover:bg-[var(--color-blue)] transition">
-            Get Started
-          </button>
-          <button className="border border-[var(--color-tech)] text-[var(--color-tech)] px-6 py-2 rounded hover:bg-[var(--color-tech)] hover:text-white transition">
-            Learn More
-          </button>
-        </div>
+      <div className="flex justify-center gap-4">
+  <a
+    href="#projects"
+    className="bg-[var(--color-tech)] text-white px-6 py-2 rounded hover:bg-[var(--color-blue)] transition"
+  >
+    Get Started
+  </a>
+
+  <a
+    href="/emanermitanio.pdf"
+    download
+    className="border border-[var(--color-tech)] text-[var(--color-tech)] px-6 py-2 rounded hover:bg-[var(--color-tech)] hover:text-white transition"
+  >
+    Download CV
+  </a>
+</div>
+
       </div>
     </section>
   );
