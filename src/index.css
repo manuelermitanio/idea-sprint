@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --color-spark: #FACC15;
-  --color-dark: #222831;
-  --color-secondary: #393E46;
-  --color-tech: #10B981;
+  --color-spark:    #FFCA3A;  /* Warm vibrant gold – great for accents or CTAs */
+  --color-dark:     #1A1D26;  /* Deeper charcoal black – stronger visual anchor */
+  --color-secondary:#2E3440;  /* Muted slate – adds subtle contrast */
+  --color-tech:     #00C28C;  /* Sleek teal – feels fresh and futuristic */
+  --color-neutral:  #ECEFF4;  /* Soft grayish-white – ideal for backgrounds */
+  --color-accent:   #FF595E;  /* Bold coral red – for callouts or hover effects */
 }

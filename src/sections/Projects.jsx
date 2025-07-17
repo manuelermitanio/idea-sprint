@@ -10,6 +10,8 @@ const projects = [
     description: "ChapterSeven is an online platfrom where anyone can read or write stories, one chapter at a time. Writers can publish their books and open for collaboration with other authors. Readers can enjoy stories, leave comments, give ratings and save books they love. It's a space where creativity and collaboration come together.",
     image: chapterseven,
     link: "/project/chapterseven",
+    username: "angelwinks@test.com",
+    password: "angel"
   },
   {
     title: "Yumi",
@@ -22,6 +24,8 @@ const projects = [
     description: "InstaRide is a RideSharing app that provides efficient access for commuters with open carpool and assist car owners with daily expenses of gas and parking fees.",
     image: instaride,
     link: "/project/instaride",
+    username: "johndoe@test.com",
+    password: "123"
   },
   {
     title: "Taskeroo",
@@ -40,7 +44,7 @@ const Projects = () => {
           {projects.map((project, index) => (
            <div
   key={index}
-  className="bg-[var(--color-dark)] border border-[var(--color-tech)] rounded-lg shadow-lg p-6 hover:scale-[1.02] transition flex flex-col justify-between"
+  className="bg-[var(--color-dark)] rounded-lg shadow-lg p-6 hover:scale-[1.02] transition flex flex-col justify-between"
 >
   <div>
     <img
